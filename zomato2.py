@@ -6,7 +6,7 @@ from selenium import webdriver
 def resturant_details():
 	seemore_list=[]
 	for url in zomato_link():
-		driver=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/chromedriver")
+		driver=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/zomato/chromedriver")
 		driver.get(url)
 		page=driver.execute_script("return document.documentElement.outerHTML")
 		driver.quit()
@@ -17,7 +17,7 @@ def resturant_details():
 			dic={}
 			link_see=j["href"]
 
-			driver2=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/chromedriver")
+			driver2=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/zomato/chromedriver")
 			driver2.get(link_see)
 			page2=driver2.execute_script("return document.documentElement.outerHTML")
 			driver2.quit()

@@ -2,7 +2,7 @@ import requests,pprint
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-driver=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/chromedriver") #a
+driver=webdriver.Chrome("/home/aijaj/Desktop/project/webscraping/zomato/chromedriver") #a
 driver.get("https://www.zomato.com/ncr")
 page=driver.execute_script("return document.documentElement.outerHTML")			#b
 driver.quit()
