@@ -25,8 +25,8 @@ beautifull Soup : `pip3 install beautifulsoup4`<br><br>
 
 ### Requests will allow you to send HTTP/1.1 requests using Python. You can install requests library using following code in your terminal in Linux.
 
-pip3 install requests
+`pip3 install requests`
 
 After finishing installation process above Open your terminal or console and following the command<br>
-python3 zomato2.py
+`python3 zomato2.py`
  
